@@ -8,7 +8,6 @@ import CallToAction from "../components/CallToAction"
 // Piano lesson icons
 const beginnerIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"><path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" fill="none" stroke-width="1.5"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9Z" stroke="currentColor" fill="none" stroke-width="1.5"/></svg>`
 const intermediateIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" fill="none" stroke-width="1.5"/><path d="M7 11c0-3 2-5 5-5s5 2 5 5c0 .273-.022.543-.066.807M17 17c-1.21.734-2.72 1-5 1-2.281 0-3.79-.266-5-1m12-6c0 5.523-4.477 10-10 10S2 16.523 2 11 6.477 1 12 1s10 4.477 10 10Z" stroke="currentColor" fill="none" stroke-width="1.5"/></svg>`
-const advancedIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"><path d="M12 12c0-4 4-4 4-4s-1 4 0 8c1 4-4 4-4 4"></path><path d="M8.5 8.5 12 12l3.5-3.5M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" stroke="currentColor" fill="none" stroke-width="1.5"/></svg>`
 const groupIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"><path d="M17 20c0-1.657-2.239-3-5-3s-5 1.343-5 3m14-8a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM7 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" stroke="currentColor" fill="none" stroke-width="1.5"/><path d="M12 14a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" fill="none" stroke-width="1.5"/></svg>`
 
 const LessonsPage = () => {
@@ -41,11 +40,6 @@ const LessonsPage = () => {
               title="Intermediate Studies" 
               description="Build on fundamentals with more complex pieces, expanded theory, and performance techniques for developing pianists."
               icon={intermediateIcon} 
-            />
-            <Feature 
-              title="Advanced Training" 
-              description="For serious students, our advanced program focuses on virtuosic repertoire, sophisticated interpretation, and performance preparation."
-              icon={advancedIcon} 
             />
             <Feature 
               title="Group Classes" 
